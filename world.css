@@ -1,14 +1,22 @@
 header {
     color: #FFFFFF;
     background: #2a6592;
-    text-align: center;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.world{
+    height: 150px;
+}
+
+#result,
 #controls {
     padding: 20px;
     background: #8ec3eb;
-    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #lookup{
@@ -17,19 +25,33 @@ header {
     border-style: none;
     border-radius: 5px;
     height: 25px;
+    margin-left: 3px;
 }
 
 #country{
-    width: 550px;
+    width: 500px;
     height:25px;
     border-radius: 5px;
     border-style: solid;
 }
 
-#result{
-    background: #8ec3eb;
-    padding-top: 20px;
-    padding-left: 340px;
-    padding-bottom: 20px;
+table {
+    border-collapse: collapse;
 }
 
+th,
+td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #cecfd5;
+    border-right: 1px solid #cecfd5;
+    border-left: 1px solid #cecfd5;
+}
+
+thead {
+    background: #2a6592;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background: #f0f0f2;
+}
