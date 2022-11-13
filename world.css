@@ -1,1 +1,35 @@
-/* Add your own styles */
+header {
+    color: #FFFFFF;
+    background: #2a6592;
+    text-align: center;
+    padding: 20px;
+}
+
+#controls {
+    padding: 20px;
+    background: #8ec3eb;
+    text-align: center; 
+}
+
+#lookup{
+    background-color: #2db34a;
+    color:#FFFFFF;
+    border-style: none;
+    border-radius: 5px;
+    height: 25px;
+}
+
+#country{
+    width: 550px;
+    height:25px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+#result{
+    background: #8ec3eb;
+    padding-top: 20px;
+    padding-left: 340px;
+    padding-bottom: 20px;
+}
+
