@@ -19,12 +19,31 @@ header {
     align-items: center;
 }
 
+#controls2{
+    background: #8ec3eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
 #lookup{
     background-color: #2db34a;
     color:#FFFFFF;
     border-style: none;
     border-radius: 5px;
-    height: 25px;
+    height: 30px;
+    margin-right: 3px;
+   
+}
+
+#lookupCities{
+    background-color: #0a389c;
+    color:#FFFFFF;
+    border-style: none;
+    border-radius: 5px;
+    height: 30px;
     margin-left: 3px;
 }
 
